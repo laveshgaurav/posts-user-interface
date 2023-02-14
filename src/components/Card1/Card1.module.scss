@@ -1,0 +1,40 @@
+.Card1_Container {
+  width: 420px;
+  padding: 1rem;
+  background-color: #fff;
+  box-shadow: 1 1 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  h2 {
+    color: #313131;
+    margin-bottom: 1rem;
+  }
+  select {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #bababa;
+    background-color: #eeeeee;
+    border-radius: 5px;
+    outline: none;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: #313131;
+  }
+  p {
+    color: #313131;
+    margin-bottom: 0.5rem;
+    font-size: 14px;
+  }
+  .Checkbox_Container {
+    display: flex;
+    label {
+      margin-right: 3rem;
+      display: flex;
+      align-items: center;
+      color: #313131;
+      input {
+        margin-right: 0.5rem;
+      }
+    }
+  }
+}

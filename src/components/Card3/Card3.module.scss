@@ -1,0 +1,144 @@
+$BLUE: #0066ff;
+$BLACK: #1a1d21;
+
+.Card3_Container {
+  width: 360px;
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  .Details {
+    margin-bottom: 2rem;
+    h5 {
+      color: #979797;
+      font-weight: 400;
+      margin-bottom: 1rem;
+    }
+    h1 {
+      span {
+        color: $BLUE;
+      }
+      color: $BLACK;
+      letter-spacing: 4px;
+      margin-bottom: 1rem;
+      font-weight: 800;
+    }
+    .Buttons {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      button {
+        width: 45%;
+        padding: 12px;
+        border-radius: 12px;
+        border: none;
+        outline: none;
+        font-size: 1rem;
+        &:first-child {
+          background-color: $BLACK;
+          color: #fff;
+        }
+        &:last-child {
+          background-color: #efefef;
+          color: #1a1d21;
+        }
+      }
+    }
+  }
+  .History {
+    .Page {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 1rem;
+
+      h4 {
+        color: $BLACK;
+        font-weight: 600;
+        font-size: 14px;
+      }
+      .Buttons {
+        button {
+          padding: 4px;
+          width: 24px;
+          height: 24px;
+          outline: none;
+          border: none;
+          background-color: #efefef;
+          color: $BLACK;
+          border-radius: 4px;
+          &:nth-child(1) {
+            margin-right: 0.5rem;
+          }
+          &:nth-child(2) {
+            margin-left: 0.5rem;
+          }
+        }
+      }
+    }
+    p {
+      color: #8b8b8b;
+      font-size: 12px;
+      margin-bottom: 1rem;
+    }
+    .Transaction {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0.5rem;
+      margin-bottom: 0.5rem;
+      border-radius: 6px;
+      transition: 0.5s ease-in;
+      &:hover {
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+      }
+      .Data {
+        display: flex;
+        align-items: center;
+        .Icon {
+          width: 28px;
+          height: 28px;
+          img {
+            width: 100%;
+            height: 100%;
+          }
+        }
+        .Name {
+          margin-left: 1rem;
+          h4 {
+            color: $BLACK;
+            font-weight: 600;
+            font-size: 12px;
+          }
+          h5 {
+            color: #8b8b8b;
+            font-size: 10px;
+            font-weight: 400;
+          }
+        }
+      }
+      .Amount_Red {
+        color: #ff0000;
+        background-color: #ffefef;
+        font-weight: 600;
+        font-size: 12px;
+        margin: 0;
+        padding: 4px 12px;
+        min-width: 72px;
+        text-align: center;
+        border-radius: 4px;
+      }
+      .Amount_Green {
+        color: #00ff00;
+        background-color: #e8f7f2;
+        font-weight: 600;
+        font-size: 12px;
+        margin: 0;
+        padding: 4px 12px;
+        min-width: 72px;
+        text-align: center;
+        border-radius: 4px;
+      }
+    }
+  }
+}
