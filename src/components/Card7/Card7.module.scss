@@ -1,0 +1,115 @@
+.Card7_Container {
+  width: 360px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+  padding: 2rem;
+  .Heading {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #330076;
+    margin-bottom: 0.75rem;
+    text-align: center;
+  }
+  .SubHeading {
+    font-size: 0.75rem;
+    font-weight: 400;
+    color: #787878;
+    margin-bottom: 1.125rem;
+    text-align: center;
+  }
+  label {
+    border: 1px dashed #330076;
+    width: 100%;
+    padding: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+    background: linear-gradient(180deg, #f2f2f2 0%, #e3cdff 100%);
+    border-radius: 10px;
+    h1,
+    h3 {
+      text-align: center;
+    }
+    h1 {
+      color: #d5b5ff;
+    }
+    h3 {
+      font-size: 0.75rem;
+      color: #330076;
+      font-weight: 500;
+    }
+    h4 {
+      background-color: #5e3b8c;
+      color: white;
+      padding: 0.55rem 1rem;
+      font-size: 0.75rem;
+      font-weight: 500;
+      border-radius: 4px;
+    }
+    input {
+      display: none;
+    }
+  }
+  h5 {
+    font-size: 0.7rem;
+    font-weight: 400;
+    color: #787878;
+    margin-bottom: 1rem;
+  }
+  .File_Container {
+    display: flex;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    align-items: center;
+    transition: 0.5s ease-in;
+    border-radius: 6px;
+    &:hover {
+      box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+      transform: translateY(-5px);
+    }
+    cursor: pointer;
+    .Icon_Container {
+      width: 15%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .Content {
+      width: 75%;
+      h3 {
+        font-size: 0.75rem;
+        margin-bottom: 0.125rem;
+        color: #330076;
+      }
+      h5 {
+        font-size: 0.7rem;
+        font-weight: 400;
+        color: #787878;
+        margin-bottom: 0;
+      }
+      .Progress_Container {
+        width: 100%;
+        height: 0.25rem;
+        background-color: #e3cdff;
+        border-radius: 10px;
+        margin-top: 0.5rem;
+        .Progress {
+          width: 50%;
+          height: 100%;
+          background-color: #330076;
+          border-radius: 10px;
+        }
+      }
+    }
+    .Check {
+      width: 10%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 0.75rem;
+    }
+  }
+}

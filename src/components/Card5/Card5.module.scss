@@ -1,0 +1,119 @@
+.Card5_Container {
+  width: 300px;
+  padding: 1.5rem;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  .Cross {
+    display: block;
+    margin-left: auto;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    color: #cacaca;
+    margin-bottom: 0.5rem;
+  }
+  .Icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: #d2e7ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 1rem auto;
+    i {
+      color: #1d87ff;
+      font-size: 24px;
+    }
+  }
+  h3 {
+    color: #2d2d2d;
+    font-size: 1.125rem;
+    margin-bottom: 0.5rem;
+    text-align: center;
+  }
+  p {
+    color: #cacaca;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 1rem;
+  }
+  .InputBox {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 1rem;
+    width: 90%;
+    margin: 0 auto 1rem auto;
+    input {
+      width: 32px;
+      height: 32px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 1.25rem;
+      padding: 6px;
+      text-align: center;
+      border: 1px solid #1d87ff;
+      border-radius: 4px;
+      outline: none;
+      transition: 0.25s ease-in;
+      &:focus {
+        border: 2px solid #1d87ff;
+        background-color: #d2e7ff;
+      }
+    }
+  }
+  .Reset {
+    color: #cacaca;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    display: block;
+    margin: 0 auto 2rem auto;
+    i {
+      transition: 0.5s ease-in;
+      margin-right: 0.5rem;
+    }
+    &:hover {
+      i {
+        transform: rotate(360deg);
+      }
+    }
+  }
+  .Verify {
+    background-color: #1d87ff;
+    border-radius: 0.5rem;
+    color: #fff;
+    display: block;
+    width: 100%;
+    padding: 0.6rem 0;
+    font-size: 14px;
+    cursor: pointer;
+    outline: none;
+    border: 2px solid #1d87ff;
+    transition: 0.25s ease-in;
+    transform-origin: left;
+    margin-bottom: 0.5rem;
+    &:hover {
+      background-color: #fff;
+      color: #1d87ff;
+    }
+  }
+  .Cancel {
+    color: #2d2d2d;
+    font-weight: 600;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    display: block;
+    margin: 0 auto;
+    padding: 0.6rem 0;
+    font-size: 14px;
+  }
+}
