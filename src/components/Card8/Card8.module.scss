@@ -1,0 +1,91 @@
+.Card8__container {
+  width: 360px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  .Profile {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: auto;
+    position: relative;
+    margin-bottom: 2rem;
+    img {
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+    }
+    p {
+      background-color: #ffd7a3;
+      color: #4f2d00;
+      padding: 4px;
+      text-align: center;
+      font-size: 12px;
+      border-radius: 12px;
+      position: absolute;
+      bottom: -12px;
+      right: 0;
+      width: 60px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+  }
+
+  h2 {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    color: #1e1e1e;
+    margin-bottom: 0.25rem;
+  }
+  h3 {
+    color: #6d6d6d;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 2rem;
+  }
+  .Detail {
+    background-color: #efefef;
+    border-radius: 8px;
+    padding: 1rem;
+    .Top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 1rem;
+      p {
+        color: #1e1e1e;
+        font-weight: 600;
+      }
+      .Info {
+        color: #121212;
+      }
+    }
+
+    .Data {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .Bar {
+        width: 2px;
+        height: 60px;
+        border-radius: 1px;
+        background-color: #d9d9d9;
+      }
+
+      h1 {
+        font-size: 24px;
+        text-align: center;
+        color: #1e1e1e;
+        span {
+          font-size: 16px;
+          color: #6d6d6d;
+          font-weight: 400;
+        }
+      }
+    }
+  }
+}
