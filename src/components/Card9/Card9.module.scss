@@ -1,0 +1,96 @@
+.Card9_Container {
+  width: 300px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  .Profile_Container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+    .Left {
+      display: flex;
+      align-items: center;
+      img {
+        width: 48px;
+        height: 48px;
+        border-radius: 8px;
+      }
+      .Details {
+        margin-left: 1rem;
+        h3 {
+          color: #2e2e2e;
+        }
+        h4 {
+          color: #a3a3a3;
+          font-weight: 500;
+          font-size: 14px;
+        }
+      }
+    }
+    .Edit {
+      padding: 0.5rem;
+      border-radius: 6px;
+      border: none;
+      outline: none;
+      background-color: #eceaff;
+      color: #5543ff;
+    }
+  }
+  .Wallet_Container {
+    padding: 1rem;
+    background-color: #fff4e0;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+
+    .Wallet {
+      width: 54px;
+      height: 54px;
+      background-color: #ffae56;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.75rem;
+      border-radius: 0.5rem;
+      margin-right: 1rem;
+    }
+    h2 {
+      color: #a3a3a3;
+      span {
+        color: #2e2e2e;
+        font-weight: 600;
+      }
+    }
+    h3 {
+      color: #a3a3a3;
+      font-weight: 500;
+    }
+  }
+  .Settings_Container {
+    .Setting {
+      display: flex;
+      align-items: center;
+      margin-bottom: 1rem;
+      .Icon {
+        width: 32px;
+        height: 32px;
+        border-radius: 12px;
+        background-color: #eceaff;
+        color: #5543ff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 0.5rem;
+      }
+      h2 {
+        font-size: 14px;
+        color: #2e2e2e;
+        font-weight: 700;
+      }
+    }
+  }
+}
