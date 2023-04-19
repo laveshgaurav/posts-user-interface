@@ -10,11 +10,12 @@ import Card6 from "./components/Card6/Card6";
 import Card7 from "./components/Card7/Card7";
 import Card8 from "./components/Card8/Card8";
 import Card9 from "./components/Card9/Card9";
+import Card11 from "./components/Card11/Card11";
 
 function App() {
   return (
     <>
-      <Card10 />
+      <Card11 />
     </>
   );
 }

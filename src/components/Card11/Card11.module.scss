@@ -1,0 +1,107 @@
+@import "../Card3/Card3.module.scss";
+.Card11_Container {
+  width: 240px;
+  position: relative;
+  .Card11 {
+    background-color: #3d89fa;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    padding: 1.5rem;
+    h1 {
+      font-size: 1.75rem;
+      display: flex;
+      align-items: center;
+      color: #e5e5e5;
+      font-weight: 600;
+      margin-bottom: 1.25rem;
+      span {
+        display: inline-flex;
+        width: 36px;
+        height: 36px;
+        border-radius: 4px;
+        background-color: #003687;
+        color: #e5e5e5;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.25rem;
+        margin-right: 1rem;
+      }
+    }
+    h2 {
+      font-size: 1.75rem;
+      color: #e5e5e5;
+      font-weight: 500;
+      margin-bottom: 1.5rem;
+      span {
+        font-size: 1rem;
+        color: #003687;
+      }
+    }
+    ul {
+      margin-bottom: 2.5rem;
+      li {
+        list-style: none;
+        margin-bottom: 1rem;
+        color: #e5e5e5;
+        font-size: 0.85rem;
+        span {
+          width: 24px;
+          height: 24px;
+          background-color: #e5e5e5;
+          font-size: 12px;
+          padding: 4px;
+          color: #003687;
+          border-radius: 4px;
+          margin-right: 1rem;
+        }
+      }
+    }
+    button {
+      padding: 1rem;
+      width: 100%;
+      border: none;
+      outline: none;
+      border-radius: 16px;
+      color: #003687;
+      font-weight: 600;
+      font-size: 16px;
+      span {
+        margin-left: 1rem;
+        border: 2px solid #003687;
+        border-radius: 50%;
+        padding: 4px;
+        aspect-ratio: 1/1;
+      }
+    }
+  }
+
+  .Testimonial {
+    position: absolute;
+    top: -10%;
+    right: -30%;
+    background-color: white;
+    display: flex;
+    padding: 0.5rem;
+    border-radius: 8px;
+    box-shadow: 8px 12px 10px rgba(0, 0, 0, 0.25);
+    align-items: center;
+    .Left {
+      img {
+        width: 60px;
+        aspect-ratio: 1/1;
+        border-radius: 12px;
+      }
+    }
+    .Right {
+      padding: 8px 12px;
+      h3 {
+        color: #003687;
+      }
+      p {
+        color: #606060;
+        font-size: 12px;
+        font-weight: 600;
+      }
+    }
+  }
+}
