@@ -1,0 +1,99 @@
+.Card12_Container {
+  width: 360px;
+  padding: 2rem;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 16px 16px 12px 0px rgba(0, 0, 0, 0.1);
+  .Header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 1.5rem;
+    .Left {
+      display: flex;
+      align-items: center;
+      .Profile_Pic {
+        width: 48px;
+        height: 48px;
+        border-radius: 50%;
+        margin-right: 0.5rem;
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          border-radius: 50%;
+        }
+      }
+      .Title {
+        h3 {
+          font-size: 1rem;
+          color: #232323;
+          font-weight: 600;
+        }
+        h5 {
+          font-size: 0.7rem;
+          color: #767676;
+          font-weight: 500;
+        }
+      }
+    }
+    .Right {
+      button {
+        border: none;
+        background-color: transparent;
+        cursor: pointer;
+        outline: none;
+        color: #767676;
+        font-size: 1rem;
+      }
+    }
+  }
+  .Body {
+    input {
+      width: 100%;
+      padding: 4px 8px;
+      outline: none;
+      border: none;
+      border-bottom: 1px solid #bdbdbd;
+      &::placeholder {
+        color: #bdbdbd;
+      }
+    }
+    margin-bottom: 0.75rem;
+  }
+  .Footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .Left {
+      button {
+        width: 28px;
+        height: 28px;
+        border-radius: 50%;
+        outline: none;
+        border: none;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        color: #767676;
+        margin-right: 0.75rem;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+        &:hover {
+          background-color: #ff2f2f;
+          color: white;
+        }
+      }
+    }
+    .Right {
+      button {
+        background-color: #ff2f2f;
+        padding: 6px 24px;
+        border-radius: 5px;
+        border: none;
+        outline: none;
+        color: white;
+      }
+    }
+  }
+}
