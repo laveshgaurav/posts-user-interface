@@ -1,0 +1,65 @@
+.Card13_Container {
+  background-color: white;
+  padding: 5rem;
+  box-shadow: 10px 15px 16px 0px rgba(0, 0, 0, 0.15);
+  .Top {
+    padding: 2rem 0;
+    h5 {
+      font-size: 14px;
+      font-weight: 700;
+      margin-bottom: 0.25rem;
+      color: #ea4c89;
+    }
+    h3 {
+      font-size: 18px;
+      font-weight: 400;
+      margin-bottom: 0.25rem;
+      line-height: 1.25;
+      letter-spacing: 0.25px;
+      color: #333333;
+    }
+  }
+  .Bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .Bottom_Left {
+      button {
+        margin-right: 1rem;
+        background-color: transparent;
+        border: none;
+        outline: none;
+        i {
+          transition: all 0.3s ease-in-out;
+          font-size: 1.125rem;
+          color: #333333;
+        }
+        &:hover {
+          i {
+            color: #ea4c89;
+          }
+        }
+      }
+    }
+    .Bottom_Right {
+      width: 60px;
+      height: 60px;
+      outline: none;
+      border: none;
+      color: white;
+      background-color: #ea4c89;
+      transition: all 0.3s ease-in-out;
+
+      i {
+        font-size: 1.5rem;
+        transition: all 0.3s ease-in-out;
+      }
+      &:hover {
+        transform: translateX(12px);
+        i {
+          transform: translateX(12px);
+        }
+      }
+    }
+  }
+}
