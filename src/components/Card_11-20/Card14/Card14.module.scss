@@ -1,0 +1,74 @@
+.Card14_Container {
+  width: 300px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+  .Top {
+    padding: 2rem;
+    .Calendar_Container {
+      width: 180px;
+      margin: auto;
+      box-shadow: 0px 0px 12px 08px rgba(174, 81, 255, 0.1);
+      border-radius: 6px;
+      .Date {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 4px 12px;
+        border-bottom: 1px solid grey;
+        margin-bottom: 0.5rem;
+        h4 {
+          color: #313131;
+        }
+        h5 {
+          color: #bbbbbb;
+        }
+      }
+      .Events_Container {
+        padding: 8px 12px;
+        .Event {
+          padding: 4px;
+          border-radius: 8px;
+          &:nth-child(1) {
+            background-color: #c8ffdc;
+            margin-bottom: 0.5rem;
+            h4 {
+              color: #036828;
+            }
+          }
+          &:nth-child(2) {
+            background-color: #ffebc8;
+            h4 {
+              color: #ff8c00;
+            }
+          }
+        }
+      }
+    }
+  }
+  .Bottom {
+    padding: 1rem;
+    h3 {
+      color: #5f5f5f;
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+    }
+    p {
+      color: #bbbbbb;
+      line-height: 1.25;
+      margin-bottom: 1.25rem;
+    }
+    button {
+      color: #8181ff;
+      outline: none;
+      border: none;
+      background-color: transparent;
+      font-size: 0.9rem;
+      font-weight: 400;
+      cursor: pointer;
+      i {
+        margin-left: 0.5rem;
+      }
+    }
+  }
+}
