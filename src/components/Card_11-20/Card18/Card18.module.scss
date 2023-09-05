@@ -1,0 +1,55 @@
+@import "../../../index.scss";
+.Card18_Container {
+  width: 300px;
+  // box-shadow: $BOX_SHADOW;
+  padding: 1rem 1.75rem;
+  border-radius: 0.5rem;
+  background: linear-gradient(111deg, #303030, #1d1d1d);
+  .Top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    margin-bottom: 1.25rem;
+    h3 {
+      font-weight: 500;
+      font-size: 0.9rem;
+    }
+    span {
+      i {
+        font-size: 0.9rem;
+      }
+    }
+  }
+  button {
+    width: 100%;
+    padding: 0.75rem;
+    border-radius: 12px;
+    outline: none;
+    border: none;
+    background: linear-gradient(-270deg, #00e5ff, #8800ff, #ee01ff);
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+  }
+  p {
+    text-align: center;
+    color: #dcdcdc;
+    font-size: 0.75rem;
+    margin-bottom: 1.125rem;
+    line-height: 1.125rem;
+  }
+  h1 {
+    text-align: center;
+    color: white;
+    font-weight: 500;
+    margin-bottom: 0.25rem;
+  }
+  h4 {
+    color: #dcdcdc;
+    text-align: center;
+    font-size: 0.6rem;
+    font-weight: 400;
+  }
+}
